@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;   
+    background-image: url("test3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    
+ 
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+
+    
+}
+
+img{
+    height:300px ;
+    width:10px ;
+}
+
+.a,.b,.d
+{
+    background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    opacity: 90%;
+}
+
+.c{
+    background: transparent;
+    opacity: 99%;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1f1f2e;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+input,textarea{
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff8fab;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color:rgb(60, 27, 60);
+    margin-bottom: 20px;
+}
+
+/* Services */
+.service-box div {
+    background-color: #ffe4ec;
+    padding: 5px;
+    margin: 0px 42px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+form {
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #b02a6f;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .nav-links a {
+        display: block;
+        margin: 8px 0;
+    }
+}
