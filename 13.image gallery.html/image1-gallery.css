@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;              /* space between images */
+}
+
+.gallery img {
+    width: 200px;           /* same width */
+    height: 200px;          /* same height */
+    object-fit: cover;      /* no stretching, image stays proportional */
+    border-radius: 15px;    /* rounded corners */
+    border: 2px solid #ccc; /* optional border */
+}
