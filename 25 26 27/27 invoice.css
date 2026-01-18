@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+.invoice {
+    width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+/* Header */
+.top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid orange;
+    padding-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.invoice-title h2 {
+    color: orange;
+    margin: 0;
+}
+
+/* Info */
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.head {
+    background: orange;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Summary */
+.summary {
+    text-align: right;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    height: 5px;
+    background: orange;
+    margin-top: 20px;
+}
