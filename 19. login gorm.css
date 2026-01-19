@@ -1,0 +1,58 @@
+body {
+    background-image: url("./hyy.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+    opacity: 0.89;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.btn {
+    width: 100%;
+    padding: 12px;
+    background: #00b300;   /* Green color */
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gender {
+    display: flex;
+    align-items: center;  /* Fixed */
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.remember {
+    border: solid white;
+    width:100%;    
+}
+
+.checkbox
+{
+    width: 15px;
+}
+
