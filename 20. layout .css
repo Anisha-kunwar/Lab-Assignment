@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Header */
+.header {
+    background: #5b5b8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+.menu {
+    background: #7aa37a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Content area */
+.content {
+    display: flex;
+    height: 300px;
+}
+
+/* Left */
+.left {
+    background: #a85656;
+    width: 25%;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+
+/* Center */
+.center {
+    background: #00aaff;
+    width: 50%;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+
+/* Right */
+.right {
+    background: #8f85ff;
+    width: 25%;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: #999;
+    text-align: center;
+    padding: 15px;
+}

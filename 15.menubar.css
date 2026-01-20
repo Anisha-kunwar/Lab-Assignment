@@ -1,0 +1,13 @@
+.menu {
+    list-style: none;
+    background:#94BBE9;
+    padding: 10px;
+}
+
+.menu li {
+    display: inline;
+    margin: 10px;
+    padding: 8px;
+    background:linear-gradient(#E075A3);
+    color: white;
+}

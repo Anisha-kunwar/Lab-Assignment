@@ -1,0 +1,29 @@
+.nav {
+    list-style: none;
+    background: purple;
+    padding: 10px;
+}
+
+.nav > li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 8px;
+    color: black;
+}
+
+.nav li:hover .dropdown {
+    display: block;
+}
