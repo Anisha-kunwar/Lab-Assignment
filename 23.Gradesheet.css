@@ -1,0 +1,60 @@
+body {
+    background: #f2f2f2;
+    font-family: "Times New Roman", serif;
+}
+
+.grade-sheet {
+    width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.exam-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #e6e6e6;
+}
+
+table td:nth-child(2) {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign {
+    margin-top: 40px;
+}
