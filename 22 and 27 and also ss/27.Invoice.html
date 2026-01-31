@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    <link rel="stylesheet" href="./27.invoice.css">
+</head>
+<body>
+
+<div class="invoice">
+
+    <div class="top-line"></div>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="left">
+            <div class="logo">LOGO</div>
+            <div class="company">
+                <p><strong>&lt;Your Company Name&gt;</strong></p>
+                <p>&lt;Your address&gt;</p>
+                <p>&lt;Your contact details&gt;</p>
+            </div>
+        </div>
+
+        <div class="invoice-title">
+            <h1>INVOICE</h1>
+            <p><strong>DATE</strong></p>
+            <hr>
+            <p><strong>INVOICE NO.</strong></p>
+            <hr>
+        </div>
+    </div>
+
+    <p class="terms">&lt;Payment terms (due on receipt, due in X days)&gt;</p>
+
+    <!-- Bill & Ship -->
+    <div class="address">
+        <div>
+            <h4>BILL TO</h4>
+            <p>&lt;Contact Name&gt;</p>
+            <p>&lt;Client Company Name&gt;</p>
+            <p>&lt;Address&gt;</p>
+            <p>&lt;Phone&gt;</p>
+            <p>&lt;Email&gt;</p>
+        </div>
+
+        <div>
+            <h4>SHIP TO</h4>
+            <p>&lt;Name / Dept&gt;</p>
+            <p>&lt;Client Company Name&gt;</p>
+            <p>&lt;Address&gt;</p>
+            <p>&lt;Phone&gt;</p>
+        </div>
+    </div>
+
+    <!-- Invoice Table -->
+    <table>
+        <tr>
+            <th>DESCRIPTION</th>
+            <th>QTY</th>
+            <th>UNIT PRICE</th>
+            <th>TOTAL</th>
+        </tr>
+
+        <tr><td></td><td></td><td></td><td>0.00</td></tr>
+        <tr class="alt"><td></td><td></td><td></td><td>0.00</td></tr>
+        <tr><td></td><td></td><td></td><td>0.00</td></tr>
+        <tr class="alt"><td></td><td></td><td></td><td>0.00</td></tr>
+        <tr><td></td><td></td><td></td><td>0.00</td></tr>
+        <tr class="alt"><td></td><td></td><td></td><td>0.00</td></tr>
+    </table>
+
+    <!-- Bottom Section -->
+    <div class="bottom">
+        <div class="remarks">
+            <p><b>Remarks / Payment Instructions:</b></p>
+        </div>
+
+        <div class="amounts">
+            <p><span>SUBTOTAL</span><span>0.00</span></p>
+            <p><span>DISCOUNT</span><span>0.00</span></p>
+            <p><span>SUBTOTAL LESS DISCOUNT</span><span>0.00</span></p>
+            <p><span>TAX RATE</span><span>0.00%</span></p>
+            <p><span>TOTAL TAX</span><span>0.00</span></p>
+            <p><span>SHIPPING/HANDLING</span><span>0.00</span></p>
+            <hr>
+
+            <!-- Balance Due -->
+            <div class="balance-row">
+                <span class="balance-text">Balance Due</span>
+                <span class="balance-box">$ &nbsp; -</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Orange Line -->
+    <div class="top-line"></div>
+
+</div>
+
+</body>
+</html>
