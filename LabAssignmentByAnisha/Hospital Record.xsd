@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="hospital">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="patient">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="name">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="first" type="xs:string"/>
+                  <xs:element name="middle" type="xs:string"/>
+                  <xs:element name="last" type="xs:string"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="patient_number" type="xs:integer"/>
+            <xs:element name="doctor" type="xs:string"/>
+            <xs:element name="disease" type="xs:string" maxOccurs="unbounded"/>
+            <xs:element name="consultation_charge" type="xs:decimal"/>
+            <xs:element name="lab_tests">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="test" type="xs:string" maxOccurs="unbounded"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
