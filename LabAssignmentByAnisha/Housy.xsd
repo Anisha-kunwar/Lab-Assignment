@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:element name="students">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="student">
+        <xs:complexType>
+          <xs:attribute name="regid" type="xs:string"/>
+          <xs:attribute name="firstName" type="xs:string"/>
+          <xs:attribute name="lastName" type="xs:string"/>
+          <xs:attribute name="age" type="xs:integer"/>
+          <xs:attribute name="university" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>

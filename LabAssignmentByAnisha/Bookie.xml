@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <title>The Blue Lotus Journey</title>
+        <author>Anisha Kunwar Chhetri</author>
+        <isbn>9804970836</isbn>
+        <publisher>Himalayan Reads</publisher>
+        <edition>1st</edition>
+        <price currency="NPR">450</price>
+    </book>
+</books>

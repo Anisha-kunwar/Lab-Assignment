@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+    <song>
+        <name>Khushi Ko Phool</name>
+        <singer>Rajesh Payal Rai</singer>
+        <composed>Shambhujeet Baskota</composed>
+        <length>4:32</length>
+    </song>
+    <song>
+        <name>Shape of You</name>
+        <singer>Ed Sheeran</singer>
+        <composed>Ed Sheeran</composed>
+        <length>3:53</length>
+    </song>
+    <song>
+        <name>Believer</name>
+        <singer>Imagine Dragons</singer>
+        <composed>Dan Reynolds</composed>
+        <length>3:24</length>
+    </song>
+    <song>
+        <name>Let Her Go</name>
+        <singer>Passenger</singer>
+        <composed>Mike Rosenberg</composed>
+        <length>4:12</length>
+    </song>
+</songs>
